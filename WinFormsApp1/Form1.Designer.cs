@@ -39,6 +39,8 @@
             this.label5 = new System.Windows.Forms.Label();
             this.odp1 = new System.Windows.Forms.Label();
             this.odp2 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.odp3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // textBox1
@@ -104,18 +106,18 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(12, 168);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(31, 15);
+            this.label4.Size = new System.Drawing.Size(19, 15);
             this.label4.TabIndex = 7;
-            this.label4.Text = "ans1";
+            this.label4.Text = "x1";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(12, 196);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(31, 15);
+            this.label5.Size = new System.Drawing.Size(19, 15);
             this.label5.TabIndex = 8;
-            this.label5.Text = "ans2";
+            this.label5.Text = "x2";
             // 
             // odp1
             // 
@@ -133,11 +135,30 @@
             this.odp2.Size = new System.Drawing.Size(0, 15);
             this.odp2.TabIndex = 10;
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(12, 227);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(33, 15);
+            this.label6.TabIndex = 11;
+            this.label6.Text = "delta";
+            // 
+            // odp3
+            // 
+            this.odp3.AutoSize = true;
+            this.odp3.Location = new System.Drawing.Point(81, 227);
+            this.odp3.Name = "odp3";
+            this.odp3.Size = new System.Drawing.Size(0, 15);
+            this.odp3.TabIndex = 12;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.odp3);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.odp2);
             this.Controls.Add(this.odp1);
             this.Controls.Add(this.label5);
@@ -169,5 +190,7 @@
         private Label label5;
         private Label odp1;
         private Label odp2;
+        private Label label6;
+        private Label odp3;
     }
 }
